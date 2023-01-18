@@ -1,0 +1,17 @@
+.headerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--theme-color2);
+  width: 100%;
+  padding: 10px;
+}
+
+.title a {
+  color: var(--white);
+}
+
+.subTitle {
+  color: var(--white);
+}

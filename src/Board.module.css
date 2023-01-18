@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.buttonlist {
+  display: flex;
+}
+
+.content {
+  min-width: 80%;
+}

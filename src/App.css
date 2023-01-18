@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+/* Color Theme Swatches in RGBA */
+:root {
+  --theme-color: rgba(88, 110, 140, 1);
+  --theme-color2: rgba(73, 91, 114, 1);
+  --black: rgba(38, 38, 37, 1);
+  --gray: rgba(165, 165, 165, 1);
+  --white: rgba(242, 242, 242, 1);
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}

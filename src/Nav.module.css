@@ -1,0 +1,20 @@
+.nav {
+  width: 100%;
+  background-color: var(--gray);
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.nav ul li {
+  margin: 0px 10px;
+}
+
+.nav ul li a {
+  color: var(--black);
+}
